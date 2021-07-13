@@ -1,0 +1,108 @@
+2021-07-11 08:37:23.972077 [info] : ========== Server init ==========
+2021-07-11 08:37:23.972092 [info] : Port:1316, OpenLinger: false
+2021-07-11 08:37:23.972095 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-07-11 08:37:23.972099 [info] : LogSys level: 1
+2021-07-11 08:37:23.972101 [info] : srcDir: /home/ubuntu/code/WebServer-master详细注释版2/bin/resources/
+2021-07-11 08:37:23.972104 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-07-11 08:37:23.972107 [info] : ========== Server start ==========
+2021-07-11 08:38:14.148504 [info] : Client[18](123.139.80.204:47613) in, userCount:1
+2021-07-11 08:38:14.148569 [info] : Client[18] in!
+2021-07-11 08:38:14.159379 [info] : Client[19](123.139.80.204:47869) in, userCount:2
+2021-07-11 08:38:14.159413 [info] : Client[19] in!
+2021-07-11 08:39:14.209733 [info] : Client[19] quit!
+2021-07-11 08:39:14.209807 [info] : Client[19](123.139.80.204:47869) quit, UserCount:1
+2021-07-11 08:39:17.804436 [info] : Client[18] quit!
+2021-07-11 08:39:17.804531 [info] : Client[18](123.139.80.204:47613) quit, UserCount:0
+2021-07-11 08:39:40.989191 [info] : Client[18](123.139.80.204:48381) in, userCount:1
+2021-07-11 08:39:40.989249 [info] : Client[18] in!
+2021-07-11 08:39:41.006085 [info] : Client[19](123.139.80.204:48125) in, userCount:2
+2021-07-11 08:39:41.006130 [info] : Client[19] in!
+2021-07-11 08:39:41.060413 [info] : Client[18] quit!
+2021-07-11 08:39:41.060481 [info] : Client[18](123.139.80.204:48381) quit, UserCount:1
+2021-07-11 08:39:41.139120 [info] : Client[18](123.139.80.204:48637) in, userCount:2
+2021-07-11 08:39:41.139168 [info] : Client[18] in!
+2021-07-11 08:40:41.190110 [info] : Client[18] quit!
+2021-07-11 08:40:41.190154 [info] : Client[18](123.139.80.204:48637) quit, UserCount:1
+2021-07-11 08:40:51.416934 [info] : Client[19] quit!
+2021-07-11 08:40:51.417017 [info] : Client[19](123.139.80.204:48125) quit, UserCount:0
+2021-07-11 08:43:50.609030 [info] : Client[18](123.139.80.204:48893) in, userCount:1
+2021-07-11 08:43:50.609085 [info] : Client[18] in!
+2021-07-11 08:43:50.620115 [info] : Client[19](123.139.80.204:49149) in, userCount:2
+2021-07-11 08:43:50.620158 [info] : Client[19] in!
+2021-07-11 08:44:50.644757 [info] : Client[19] quit!
+2021-07-11 08:44:50.644845 [info] : Client[19](123.139.80.204:49149) quit, UserCount:1
+2021-07-11 08:45:08.586724 [info] : Client[18] quit!
+2021-07-11 08:45:08.586806 [info] : Client[18](123.139.80.204:48893) quit, UserCount:0
+2021-07-11 08:45:28.661900 [info] : Client[18](123.139.80.204:49405) in, userCount:1
+2021-07-11 08:45:28.661957 [info] : Client[18] in!
+2021-07-11 08:45:28.671753 [info] : Client[19](123.139.80.204:49661) in, userCount:2
+2021-07-11 08:45:28.671781 [info] : Client[19] in!
+2021-07-11 11:03:25.283868 [info] : ========== Server init ==========
+2021-07-11 11:03:25.283885 [info] : Port:1316, OpenLinger: false
+2021-07-11 11:03:25.283889 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-07-11 11:03:25.283892 [info] : LogSys level: 1
+2021-07-11 11:03:25.283895 [info] : srcDir: /home/ubuntu/code/WebServer-master详细注释版2/bin/resources/
+2021-07-11 11:03:25.283898 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-07-11 11:03:25.283901 [info] : ========== Server start ==========
+2021-07-11 11:03:32.139247 [info] : Client[18](123.139.80.204:38153) in, userCount:1
+2021-07-11 11:03:32.140255 [info] : Client[18] in!
+2021-07-11 11:03:32.148389 [info] : Client[19](123.139.80.204:38409) in, userCount:2
+2021-07-11 11:03:32.148422 [info] : Client[19] in!
+2021-07-11 13:23:52.379049 [info] : ========== Server init ==========
+2021-07-11 13:23:52.379057 [info] : Port:1316, OpenLinger: false
+2021-07-11 13:23:52.379060 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-07-11 13:23:52.379063 [info] : LogSys level: 1
+2021-07-11 13:23:52.379066 [info] : srcDir: /home/ubuntu/code/WebServer-master详细注释版2/bin/resources/
+2021-07-11 13:23:52.379068 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-07-11 13:23:52.379071 [info] : ========== Server start ==========
+2021-07-11 13:24:04.210633 [info] : Client[18](123.139.80.204:36877) in, userCount:1
+2021-07-11 13:24:04.210693 [info] : Client[18] in!
+2021-07-11 13:24:04.249227 [info] : Client[19](123.139.80.204:36621) in, userCount:2
+2021-07-11 13:24:04.249283 [info] : Client[19] in!
+2021-07-11 13:24:15.040852 [info] : Client[21](123.139.80.204:37133) in, userCount:3
+2021-07-11 13:24:15.040905 [info] : Client[21] in!
+2021-07-11 13:24:15.048804 [error]: RequestLine Error
+2021-07-11 13:24:15.048887 [info] : Client[21] quit!
+2021-07-11 13:24:15.048917 [info] : Client[21](123.139.80.204:37133) quit, UserCount:2
+2021-07-11 13:24:15.051492 [info] : Client[21](123.139.80.204:25359) in, userCount:3
+2021-07-11 13:24:15.051527 [info] : Client[21] in!
+2021-07-11 13:24:15.059627 [error]: RequestLine Error
+2021-07-11 13:24:15.059694 [info] : Client[21] quit!
+2021-07-11 13:24:15.059715 [info] : Client[21](123.139.80.204:25359) quit, UserCount:2
+2021-07-11 13:24:15.191013 [info] : Client[21](123.139.80.204:25615) in, userCount:3
+2021-07-11 13:24:15.191065 [info] : Client[21] in!
+2021-07-11 13:24:15.198982 [error]: RequestLine Error
+2021-07-11 13:24:15.199055 [info] : Client[21] quit!
+2021-07-11 13:24:15.199076 [info] : Client[21](123.139.80.204:25615) quit, UserCount:2
+2021-07-11 13:24:15.205581 [info] : Client[21](123.139.80.204:25871) in, userCount:3
+2021-07-11 13:24:15.205615 [info] : Client[21] in!
+2021-07-11 13:24:15.218958 [error]: RequestLine Error
+2021-07-11 13:24:15.219033 [info] : Client[21] quit!
+2021-07-11 13:24:15.219060 [info] : Client[21](123.139.80.204:25871) quit, UserCount:2
+2021-07-11 13:25:04.265188 [info] : Client[19] quit!
+2021-07-11 13:25:04.265268 [info] : Client[19](123.139.80.204:36621) quit, UserCount:1
+2021-07-11 13:25:15.220339 [info] : Client[21] quit!
+2021-07-11 13:25:42.690309 [info] : Client[18] quit!
+2021-07-11 13:25:42.690401 [info] : Client[18](123.139.80.204:36877) quit, UserCount:0
+2021-07-11 13:27:07.440677 [info] : Client[18](123.139.80.204:26383) in, userCount:1
+2021-07-11 13:27:07.440749 [info] : Client[18] in!
+2021-07-11 13:27:07.440758 [info] : Client[19](123.139.80.204:26127) in, userCount:2
+2021-07-11 13:27:07.440764 [info] : Client[19] in!
+2021-07-11 13:27:11.445245 [info] : Client[18] quit!
+2021-07-11 13:27:11.445322 [info] : Client[18](123.139.80.204:26383) quit, UserCount:1
+2021-07-11 13:27:11.445328 [info] : Client[19] quit!
+2021-07-11 13:27:11.445337 [info] : Client[19](123.139.80.204:26127) quit, UserCount:0
+2021-07-11 13:28:07.488590 [info] : Client[19] quit!
+2021-07-11 13:55:37.886063 [info] : ========== Server init ==========
+2021-07-11 13:55:37.886071 [info] : Port:1316, OpenLinger: false
+2021-07-11 13:55:37.886074 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-07-11 13:55:37.886077 [info] : LogSys level: 1
+2021-07-11 13:55:37.886080 [info] : srcDir: /home/ubuntu/code/WebServer-master详细注释版2/bin/resources/
+2021-07-11 13:55:37.886083 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-07-11 13:55:37.886086 [info] : ========== Server start ==========
+2021-07-11 13:55:59.996477 [info] : Client[18](123.139.80.204:28687) in, userCount:1
+2021-07-11 13:55:59.996533 [info] : Client[18] in!
+2021-07-11 13:55:59.996548 [info] : Client[20](123.139.80.204:28943) in, userCount:2
+2021-07-11 13:55:59.996554 [info] : Client[20] in!
+2021-07-11 13:57:00.043036 [info] : Client[20] quit!
+2021-07-11 13:57:00.043130 [info] : Client[20](123.139.80.204:28943) quit, UserCount:1

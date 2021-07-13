@@ -1,0 +1,13 @@
+2021-07-12 10:11:54.583643 [info] : ========== Server init ==========
+2021-07-12 10:11:54.583658 [info] : Port:1316, OpenLinger: false
+2021-07-12 10:11:54.583661 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-07-12 10:11:54.583664 [info] : LogSys level: 1
+2021-07-12 10:11:54.583667 [info] : srcDir: /home/ubuntu/code/WebServer-master详细注释版2/bin/resources/
+2021-07-12 10:11:54.583669 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-07-12 10:11:54.583672 [info] : ========== Server start ==========
+2021-07-12 10:13:00.053613 [info] : Client[18](123.139.80.204:62238) in, userCount:1
+2021-07-12 10:13:00.053682 [info] : Client[18] in!
+2021-07-12 10:13:00.055814 [info] : Client[21](123.139.80.204:61982) in, userCount:2
+2021-07-12 10:13:00.055846 [info] : Client[21] in!
+2021-07-12 10:14:00.054079 [info] : Client[18] quit!
+2021-07-12 10:14:00.054164 [info] : Client[18](123.139.80.204:62238) quit, UserCount:1

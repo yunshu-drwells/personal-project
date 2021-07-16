@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @Author: 杨致远
+ * @version: 
+ * @Date: 2021-06-27 15:49:34
+ * @LastEditTime: 2021-07-14 08:00:39
+ * Copyright (C) 2021 yangzhiyuan. All rights reserved.
+-->
 
 
 ## GDB
@@ -105,7 +113,87 @@ gcc加上-g选项，编译的时候会加入调试信息
 
 
 
-### 多进程调试
+### 多进程多线程调试
 
-...
+
+##### 多线程
+
+1、info threads： 
+
+　　这条命令显示的是当前可调试的所有线程,GDB会给每一个线程都分配一个ID。前面有*的线程是当前正在调试的线程。 
+
+2、thread ID： 
+
+　　切换到当前调试的线程为指定为ID的线程。 
+
+3、thread apply all command： 
+
+　　让所有被调试的线程都执行command命令 
+
+4、thread apply ID1 ID2 … command： 
+
+　　这条命令是让线程编号是ID1，ID2…等等的线程都执行command命令 
+
+5、set scheduler-locking off|on|step： 
+
+　　在使用step或continue命令调试当前被调试线程的时候，其他线程也是同时执行的，如果我们只想要被调试的线程执行，而其他线程停止等待，那就要锁定要调试的线程，只让它运行。 
+- off:不锁定任何线程，所有线程都执行。 
+- on:只有当前被调试的线程会执行。 
+- step:阻止其他线程在当前线程单步调试的时候抢占当前线程。只有当next、continue、util以及finish的时候，其他线程才会获得重新运行的。 
+
+
+6、show scheduler-locking： 
+
+　　这条命令是为了查看当前锁定线程的模式。 
+
+7.i threads
+
+　　实现线程间切换
+
+9.-g -rdynamic
+
+　　在生成调试信息的时候加入 -g -rdynamic选项，然后gdb启动调试程序时，直接run，就能找出错误信息所在的地方
+
+    一个小提示：
+    在输入gdb xx时，进入gdb命令，这时会输出一些信息。如上所示，这些信息大多都是关于gdb的一些信息，可以不让他输出，
+    如：gdb -q xx
+    这里面xx是我生成的调试信息的文件名。
+
+
+##### 多进程
+
+默认设置下, 在调试多进程程序时 GDB 只会调试主进程. 但是 GDB > V7.0 支持多进程的分别以及同时调试, 换句话说, GDB 可以同时调试多个程序. 只需要设置 follow-fork-mode (默认值 parent) 和 detach-on-fork (默认值 on )即可.
+
+| follow-fork-mode | detach-on-fork | 说明                                      |
+|------------------|----------------|-----------------------------------------|
+| parent           | on             | 只调试主进程(GDB默认)                           |
+| child            | on             | 只调试子进程                                  |
+| parent           | off            | 同时调试两个进程,gdb 跟主进程, 子进程 block 在 fork 位置  |
+| child            | off            | 同时调试两个进程, gdb 跟子进程, 主进程 block 在 fork 位置 |
+
+###### 命令练习
+
+- 进入gdb调试模式
+
+    gcc process.c -o process -g
+    gdb process
+
+- 查看系统默认的follow-fork-mode 和 detach-on-fork：
+
+    show follow-fork-mode
+    show detach-on-fork
+
+- 设置follow-fork-mode 和 detach-on-fork：
+
+    set follow-fork-mode [parent|child]   
+    set detach-on-fork [on|off]
+
+    set follow-fork-mode child
+    set detach-on-fork off
+    //主进程阻塞
+
+- 用l/list命令查看源代码（按enter翻页），分别在子进程和父进程相应位置下断点：
+
+    b 22
+    b 25
 
